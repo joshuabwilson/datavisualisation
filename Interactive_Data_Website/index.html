@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    
+    <title>Covid-19 Global Statistics</title>
+    
+</head>
+<body>
+    <main>
+        <section class="landing">
+            <h2 class="big-text">Covid-19</h2>
+            <h3>Global Data Dashboard</h3>
+            <div class="update-status">Last Updated: 12/10/2020 • 2:42pm NZT</div>
+        </section>
+    </main>
+    
+    
+    
+    <div class="main-stats">
+        <div class="main-stats-center">
+            <div class="centered-reset">
+                
+                <div class="stat-infographic">
+                    <div class="stat-number-current">
+                        37,423,660
+                    </div>
+                <div class="stat-caption">Confirmed Cases</div>
+                <div class="case-updates" style="background: #dd1053" >
+                    + 350,230
+                </div>
+                </div>
+                
+                 <div class="stat-infographic">
+                    <div class="stat-number-current1">
+                        1,070,355
+                    </div>
+                <div class="stat-caption">Fatalities</div>
+                <div class="case-updates" style="background: #dd1053">
+                    + 3,479
+                </div>
+                </div>
+                
+                <div class="stat-infographic">
+                    <div class="stat-number-current">
+                        347,526
+                    </div>
+                <div class="stat-caption">New Cases</div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="header">
+            <h2>Virus cases by country - Top 9 Countries</h2>
+            <p>Confirmed Cases</p>
+        </div>
+        
+        
+	   <div class="screen1">
+           <canvas id="myChart"></canvas>
+	   </div>
+    
+    </div>
+    
+    <div class="container-greybg">
+        <div class="header">
+            <h2>Recent virus growth by country</h2>
+            <p>Increase in cases over past 24 hours - top 9 countries</p>
+        </div>
+            
+            
+        <div class="screen2">
+        <canvas id="myChart2"></canvas>
+        </div>
+
+    </div>
+    
+    <div class="container-darkgrey">
+        <div class="header">
+            <h2>Recoveries</h2>
+            <p>Global recoveries compared to fatalities</p>
+        </div>
+        
+    
+        <div class="screen3">     
+        <canvas id="myChart3"></canvas>      
+        </div>  
+        
+        
+    </div>
+            
+    <div class="container-greybg">
+    
+        <div class="header">
+            <h2>Trending</h2>
+            <p>Total number of cases globally - Last 2 Months</p>
+        </div>
+        
+        <div class="screen4">
+            <canvas id="myChart4"></canvas>
+        </div>
+        
+    </div>
+        
+    <div class="container">
+        <div class="header">
+            <h2>Fatalities</h2>
+            <p>Top 9 countries</p>
+        </div>
+    
+        <div class="screen5">
+            <canvas id="myChart5"></canvas>
+        </div>
+    
+    </div>
+        
+    <div class="footer">
+    <p>Infographic COVID19 Data By Josh Wilson</p>
+    
+    
+    </div>
+    
+
+    
+    
+    
+    
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="app.js"></script>
+
+
+
+</body>
+
+
+</html>
